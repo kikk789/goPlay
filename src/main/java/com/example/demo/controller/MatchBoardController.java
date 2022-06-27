@@ -25,7 +25,7 @@ public class MatchBoardController {
 	
 	@GetMapping("/findMatchBoard")
 	public List<MatchBoard> findBy(){
-		return ms.findMatchBoardByMbStat("종료");
+		return ms.findMatchBoardByMbStat("종료1");
 	}
 	
 	@GetMapping("/findMatch")
